@@ -1,4 +1,5 @@
 ## Setting for VIM
+# vi .vimrc
 set nu
 
 set cursorline
@@ -27,6 +28,7 @@ hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 
 ## Setting for tmux
+# vim .tmux.config
 
 #message text
 set-option -g message-style fg=colour5
