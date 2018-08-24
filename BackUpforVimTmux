@@ -1,0 +1,43 @@
+## Setting for VIM
+set nu
+
+set cursorline
+
+set smarttab
+
+syntax on
+
+set smarttab
+
+set tabstop=4
+
+set shiftwidth=4
+
+set t_Co=8
+
+
+"color configuration
+
+set bg=dark
+
+color evening 
+
+hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
+
+hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
+
+## Setting for tmux
+
+#message text
+set-option -g message-style fg=colour5
+set-option -g message-style bg=colour232
+
+#panel
+set-option -g pane-border-fg colour27
+set-option -g pane-active-border-fg colour9
+set-option -g display-panes-active-colour blue
+set-option -g display-panes-colour brightred
+
+set -g default-terminal "xterm-256color"
+
+
