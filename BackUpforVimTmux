@@ -1,18 +1,19 @@
 ## Setting for VIM
 # vi .vimrc
+
 set nu
 
 set cursorline
 
-set smarttab
-
 syntax on
-
-set smarttab
 
 set tabstop=4
 
 set shiftwidth=4
+
+set smarttab
+
+set autoindent
 
 set t_Co=8
 
