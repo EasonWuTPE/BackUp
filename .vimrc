@@ -91,7 +91,9 @@ set smarttab
 
 set smartindent
 
-set expandtab
+set expandtab "Convert tab to space 
+
+retab
 
 set autoindent
 
