@@ -89,6 +89,10 @@ set shiftwidth=4
 
 set smarttab
 
+set smartindent
+
+set expandtab
+
 set autoindent
 
 set t_Co=8
