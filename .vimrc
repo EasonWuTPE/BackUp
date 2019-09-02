@@ -103,6 +103,9 @@ set autoindent
 
 set t_Co=8
 
+" split window at bottom
+set splitbelow
+
 
 "color configuration
 
