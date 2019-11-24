@@ -103,6 +103,9 @@ set autoindent
 
 set t_Co=8
 
+" font 
+set guifont=Bitstream_Vera_Sans_Mono:h10:cANSI
+
 " split window at bottom
 set splitbelow
 
